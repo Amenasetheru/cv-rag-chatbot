@@ -1,0 +1,48 @@
+# Python-generated files and Caches
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pyc
+*.pyd
+*.pyo
+.eggs/
+
+# Virtual environments
+.venv
+
+# Sensitive Files and Local Configuratio
+.env
+
+# Operating System Specific Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# LangChain / FAISS / Embeddings Specific Files and Folders
+faiss_index/
+*.faiss
+*.bin
+*.idx
+.cache/huggingface/
+.langchain_cache/
+
+# Log and Temporary/Local Data Files
+*.log
+*.sqlite3
+db.sqlite3
+*.pkl
+*.npy
+*.npz
+*.parquet
+*.h5
+*.hdf5
+*.onnx
+*.onnx.data
+*.pt
+*.ckpt
+*.pth
+*.tf
